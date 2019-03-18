@@ -6,7 +6,7 @@ public class App {
 
 	public static void main(String[] args) {
 
-		CalculoFactorial mCalculoFactorial = new CalculoFactorialImpl();
+		CalculoFactorial mCalculoFactorial = new CalculoFactorialAlt2Impl();
 		
 		System.out.println("Cargale un número!:");
 		Scanner sStr = new Scanner(System.in);
